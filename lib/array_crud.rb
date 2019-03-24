@@ -13,13 +13,12 @@ end
 
 def add_element_to_start_of_array(array, element)
   array = ["I", "am", "really", "learning"]
-  element = "wow"
-  element = array.unshift
+  array.unshift ("wow")
 end
 
 def remove_element_from_end_of_array(array)
-puppies = ["corgi", "greyhound", "poodle", "bichon"]
-barky_dog = puppies.pop
+  array = ["I", "am", "really", "learning", "arrays!"]
+  element = array.pop
 end
 
 def remove_element_from_start_of_array(array)

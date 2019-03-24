@@ -22,21 +22,21 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-puppies = ["corgi", "greyhound", "poodle", "bichon"]
-mishka_baby = puppies.shift
+array = ["wow", "I", "am", "really", "learning", "arrays!"]
+new_element = array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-puppies = ["corgi", "greyhound", "poodle", "bichon"]
-puppies[1]
+  array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  array [2]
 end
 
 def retrieve_first_element_from_array(array)
-puppies = ["corgi", "greyhound", "poodle", "bichon"]
-puppies.first
+array = ["wow", "I", "am", "really", "learning", "arrays!"]
+array.first
 end
 
 def retrieve_last_element_from_array(array)
-puppies = ["corgi", "greyhound", "poodle", "bichon"]
-puppies.last
+array = ["wow", "I", "am", "really", "learning", "arrays!"]
+array.last
 end

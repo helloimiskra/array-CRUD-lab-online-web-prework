@@ -6,14 +6,16 @@ def create_an_array
 puppies = ["corgi", "greyhound", "poodle", "bichon"]
 end
 
-def add_element_to_end_of_array(puppies, "huskie")
-puppies = ["corgi", "greyhound", "poodle", "bichon"]
-puppies.push ("huskie")
+def add_element_to_end_of_array(array, element)
+  array = ["wow", "I", "am", "really", "learning"]
+  element = "arrays!"
+  element = array.push
 end
 
 def add_element_to_start_of_array(array, element)
-puppies = ["corgi", "greyhound", "poodle", "bichon"]
-puppies.unshift("golden retriever")
+  array = ["I", "am", "really", "learning"]
+  element = "wow"
+  element = array.unshift
 end
 
 def remove_element_from_end_of_array(array)
